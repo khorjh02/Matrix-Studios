@@ -32,11 +32,16 @@ h2 {
 	filter: dropshadow(color=#000000, offx=0, offy=3);
 }
 h3 {
-font-size: 30px;
+font-size: 35px;
 margin: 0.2em 0;
 text-align: center;
-color: #888;
-padding: 0 0 29px;
+color: rgb(12, 22, 34);
+padding: 0 0 10px;
+line-height: 120%
+}
+
+p {
+	text-align: center;
 }
 .ie h3 {
 	filter: dropshadow(color=#000000, offx=0, offy=3);
@@ -97,8 +102,7 @@ font-weight:600;
 
 }
 .logo img {
-width: 80px;
-height: 108px;
+width: 30%;
 text-align: center;
 display: block;
 margin: 0 auto; 
